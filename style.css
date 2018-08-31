@@ -1,0 +1,113 @@
+body {
+    background-image: url(assets/bckgrnd.png);
+    height: 98vh;
+}
+
+
+main {
+    height: 100%;
+
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    width: 400px;
+    line-height: 1.2
+
+}
+.content {    
+    padding: 20px;
+    position: relative;
+
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px; 
+    color: #333333;
+    margin-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding:10px;
+    border-bottom: 1px solid white; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bottom {
+    margin-bottom: 0px;
+    background-color: rgba(150,150,150,.60);
+    padding: 20px;
+
+}
+
+
+footer {
+    color:#FFFFFF; 
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid white;   
+}
+
+.pic {
+    width:150px;
+    border:5px solid #2c5fa8;
+    border-radius: 100px;
+    margin-left: 150px; 
+    margin-top: 60px;
+    margin-bottom: 30px;
+    }
+  
+img.work {
+    width:250px;
+    padding: 20px;      
+    margin-left: 20px;
+}
+    
+.social {
+    margin-left: 140px;
+}
+
+img {
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+.pic {
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+img.work {
+    margin-left: 40px;
+}
+
+.social {
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+}
