@@ -4,11 +4,6 @@ body {
 }
 
 
-main {
-    height: 100%;
-
-
-}
 
 p {
     font-family: 'Open Sans', sans-serif;
@@ -57,26 +52,26 @@ h2 {
 footer {
     color:#FFFFFF; 
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-top: 1px solid white;   
 }
 
 .pic {
-    width:150px;
-    border:5px solid #396eb9;
-    margin-left: 150px; 
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 120px;
+    border: 4px solid #396eb9;
+
     }
   
 img.work {
-    width:300px;
-    padding: 20px;      
+    width:250px;
+    padding: 10px;      
     margin-left: 100px;
 }
     
 .social {
-    margin-left: 140px;
+    padding-top: 5px;
+    margin-left: 150px;
 }
 
 img {
@@ -89,19 +84,19 @@ img {
 
 .pic {
     position: absolute;
-    bottom: 200px;
-    right: 50px;
+    margin-top: 20px;
+    margin-left: 430px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
     width: 600px;
     margin-left: 20px;
 }
 
 img.work {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .social {
