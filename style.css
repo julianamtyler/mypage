@@ -83,7 +83,7 @@ img {
 @media only screen and (min-width: 600px) {
 .pic {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 3px;
     margin-left: 430px;
 }
 
