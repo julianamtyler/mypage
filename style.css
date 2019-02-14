@@ -4,17 +4,23 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        font-family: 'Montserrat', sans-serif;
     }
-
+  
+    .pic {
+        width: 200px;
+        float: right;
+        border-radius: 120px;
+        margin-top: -70px;
+    }
     .content {
         border-radius: 15px;
         margin: 10px;
         background-color: rgba(255, 255, 255, 0.6);
         text-align: center;
-        font-size: 20px;
-
+        font-size: 17px;
         overflow: scroll;
-        height: 400px;
+        height: 500px;
         padding: 20px;
     }
     p {
@@ -37,7 +43,7 @@
     .title {
         margin: 10px;
         padding: 10px;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
     }
     .title2 {
@@ -54,7 +60,7 @@
     }
     .myProj {
         border-radius: 15px;
-        background-color: rgba(112, 73, 11, 0.5);
+        background-color: rgba(37, 25, 5, 0.5);
         margin: 20px;
         height: 250px;
         max-height: 300px;
@@ -96,15 +102,19 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .title {
+        font-size: 40px;
+    }
     .mywork {
         width: 1300px;
-        height: 400px;
+        height: 450px;
     }
     .myProj {
         margin-left: 30px;
         width: 250px;
     }
     .content {
+        font-size: 20px;
         width: 1260px;
         height: 500px;
     }
