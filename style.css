@@ -1,6 +1,9 @@
     body {
         background-image: url(assets/abstract2.jpg);
         height: 98vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .content {
@@ -87,7 +90,6 @@
         display: none;
     }
 @media only screen and (min-width: 600px) {
-   
 
     .contentTwo {
         height: 250px;
@@ -95,13 +97,15 @@
         flex-wrap: wrap;
     }
     .mywork {
+        width: 1300px;
         height: 400px;
     }
     .myProj {
         margin-left: 30px;
-        width: 300px;
+        width: 250px;
     }
     .content {
+        width: 1260px;
         height: 500px;
     }
 }
