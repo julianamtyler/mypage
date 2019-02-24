@@ -2,9 +2,11 @@
         height: 98vh;
         font-family: 'Montserrat', sans-serif;
     }
+
     header {
         padding-top: 100px;
     }
+
     .nav-bar {
         display: flex;
         flex-wrap: wrap;
@@ -23,26 +25,29 @@
         color: rgb(0, 0, 0);
         text-decoration: none;
     }
+
     .navlink:hover {
         color: white;
         background-color: rgba(177, 179, 173, 0.705);
         padding: 10px;
     }
+
     .content {
         margin: 10px;
         text-align: center;
         font-size: 17px;
-        overflow: scroll;
-        height: 500px;
         padding: 20px;
     }
+
     p {
         line-height: 1.6;
     }
+
     .social {
         line-height: 1.6;
         text-align: center;
     }
+
     .imgsocial {
         justify-content: center;
         width: 30px;
@@ -54,6 +59,7 @@
         font-size: 40px;
         text-align: center;
     }
+
     .title {
         font-style: oblique;
         margin: 10px;
@@ -61,17 +67,18 @@
         font-size: 30px;
         text-align: center;
     }
+
     .title2 {
         color: white;
         padding: 5px;
         font-size: 25px;
         text-align: center;
     }
+
     .mywork {  
         margin: 10px;  
-        overflow: scroll;
-        height: 500px;
     }
+
     .myProj {
         background-color: rgb(148, 144, 144);
         margin: 20px;
@@ -79,13 +86,14 @@
         max-height: 300px;
         padding: 10px;
         overflow: hidden;
-    
+
     }
+
     .projects {
         width: 250px; 
     }
 
-    a{
+    a {
         line-height: 1.2;
         color: white;
         text-decoration: none;
@@ -94,7 +102,6 @@
     .details {
         margin:10px;
         text-align: center;
-    
     }
     
     footer{
@@ -106,35 +113,35 @@
         text-align: center;
         padding: 10px;
         background-position: 0px 40px;
-        }
+    }
 
 @media only screen and (min-width: 600px) {
-    /* .pic {
-        position: absolute;
-        height: 300px;
-
-    } */
     .name {
         font-size: 70px;
     }
+
     .contentTwo {
         height: 250px;
         display: flex;
         flex-wrap: wrap;
     }
+
     .title {
         font-size: 40px;
     }
+
     .mywork {  
         overflow: hidden;
         margin: auto;
         width: 1300px;
         height: 700px;
     }
+
     .myProj {
         margin-left: 30px;
         width: 250px;
     }
+
     .content {
         margin: auto;
         font-size: 20px;
