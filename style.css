@@ -1,22 +1,35 @@
     body {
-        background-image: url(assets/abstract2.jpg);
         height: 98vh;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         font-family: 'Montserrat', sans-serif;
     }
-/*   
-    .pic {
-        width: 200px;
-        float: right;
-        border-radius: 120px;
-        margin-top: -70px;
-    } */
+    header {
+        padding-top: 100px;
+    }
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        color: black;
+        background-color: rgb(117, 115, 115);
+        height: 50px;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: auto;
+    }
+
+    a:any-link {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    .navlink:hover {
+        color: white;
+        background-color: rgba(177, 179, 173, 0.705);
+        padding: 10px;
+    }
     .content {
-        border-radius: 15px;
         margin: 10px;
-        background-color: rgba(255, 255, 255, 0.6);
         text-align: center;
         font-size: 17px;
         overflow: scroll;
@@ -27,6 +40,7 @@
         line-height: 1.6;
     }
     .social {
+        line-height: 1.6;
         text-align: center;
     }
     .imgsocial {
@@ -54,15 +68,12 @@
         text-align: center;
     }
     .mywork {  
-        border-radius: 15px;
         margin: 10px;  
-        background-color: rgba(255, 255, 255, 0.6);  
         overflow: scroll;
         height: 500px;
     }
     .myProj {
-        border-radius: 15px;
-        background-color: rgba(37, 25, 5, 0.5);
+        background-color: rgb(148, 144, 144);
         margin: 20px;
         height: 250px;
         max-height: 300px;
@@ -85,20 +96,24 @@
         text-align: center;
     
     }
-
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
     
-    ::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-    }
-    ::-webkit-scrollbar-corner {
-        display: none;
-    }
-@media only screen and (min-width: 600px) {
+    footer{
+        background: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        padding: 10px;
+        background-position: 0px 40px;
+        }
 
+@media only screen and (min-width: 600px) {
+    /* .pic {
+        position: absolute;
+        height: 300px;
+
+    } */
     .name {
         font-size: 70px;
     }
@@ -110,17 +125,20 @@
     .title {
         font-size: 40px;
     }
-    .mywork {
+    .mywork {  
+        overflow: hidden;
+        margin: auto;
         width: 1300px;
-        height: 450px;
+        height: 700px;
     }
     .myProj {
         margin-left: 30px;
         width: 250px;
     }
     .content {
+        margin: auto;
         font-size: 20px;
         width: 1260px;
-        height: 500px;
+        height: 400px;
     }
 }

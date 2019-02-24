@@ -9,35 +9,27 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-
-
   <title>My Portfolio</title>
 </head>
 
 <body>
-
-  <section class="content">
-    <div class="social">
-      <a href="https://github.com/julianamtyler" target="_blank"><img src="assets/github.png" alt="Github"
-          class="imgsocial" /></a>
-      <a href="mailto:julianam.tyler@gmail.com"><img src="assets/email.png" alt="email" class="imgsocial" /></a>
-      <a href="https://www.linkedin.com/in/juliana-tyler-94687bb9/" target="_blank"><img src="assets/linkedin.png"
-          alt="linkedin" class="imgsocial" /></a>
-    </div>
-
-    <!-- <img src="assets/juliana_01.png" alt="JulianaTyler" class="pic" /> -->
-
+  <nav class="nav-bar">
+    <div class="nav-item"><a class="navlink" href="#about">About Me</a></div>
+    <div class="nav-item"><a class="navlink" href="#mywork">My Work</a></div>
+    <div class="nav-item"><a class="navlink" href="#contact">Contact Me</a></div>
+  </nav>
+  <header id="about">
     <h1 class="name">Juliana Tyler</h1>
     <h1 class="title">Web Developer</h1>
-
-
-
+  </header>
+  <section class="content">
     <p>Hi, my name is Juliana Tyler, I am a Web Developer with knoweldge in Node.Js, Express, JavaScript,
       jQuery, React.js, React Native, GIT, Github, MongoDB, MySQL,
       HTML, CSS, Bootstrap, Media Queries, APIs, JSON, REST, AJAX, the command line, computer science fundamentals, and
       writing tests. I am always looking for more elements to learn and increase my knoweldge. Also graphic design work
       with set-up like
       PhotoShop, Illustrator and inDesign. </p>
+      <!-- <img src="assets/jtyler.jpg" alt="JulianaTyler" class="pic" /> -->
     <p>As a Web developer - with ability to achieve any given data or task, exceptional skill at managing
       deadlines, great attention to detail in development and design. I completed the certification in Full stack
       development from Georgia Tech. I am confident in my ability to achieve the best final product in the world of
@@ -46,7 +38,7 @@
 
   </section>
 
-  <section class="mywork">
+  <section id="mywork" class="mywork">
     <h1 class="title">My Work</h1>
     <div class="contentTwo">
       <div class="myProj">
@@ -99,11 +91,24 @@
     <!-- </div> -->
   </section>
 
-  <!-- <footer>
-      Copyright by Juliana M. Tyler 2018.
-    </footer> -->
 
-  </main>
+  <section class="social" id="contact">
+    <h2>Contact Me:</h2>
+    <div>julianam.tyler@gmail.com</div>
+    <div>(770) 568 - 4100 </div> 
+    <div class="social">
+      <a href="https://github.com/julianamtyler" target="_blank"><img src="assets/github.png" alt="Github"
+          class="imgsocial" /></a>
+      <a href="mailto:julianam.tyler@gmail.com"><img src="assets/email.png" alt="email" class="imgsocial" /></a>
+      <a href="https://www.linkedin.com/in/juliana-tyler-94687bb9/" target="_blank"><img src="assets/linkedin.png"
+          alt="linkedin" class="imgsocial" /></a>
+    </div>
+
+  </section>
+  <footer>
+    Created by Juliana M. Tyler
+  </footer>
+
 
 </body>
 
