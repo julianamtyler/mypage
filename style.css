@@ -1,4 +1,5 @@
     body {
+        background-image: url(assets/back_ground_01.jpg);
         height: 98vh;
         font-family: 'Montserrat', sans-serif;
     }
@@ -20,17 +21,23 @@
     .nav-item {
         margin: auto;
     }
-
     a:any-link {
         color: rgb(0, 0, 0);
         text-decoration: none;
     }
-
-    .navlink:hover {
+      .navlink:hover {
         color: white;
         background-color: rgba(177, 179, 173, 0.705);
         padding: 10px;
     }
+
+    .top {
+        color: blue;
+        text-decoration: underline;
+    }
+
+
+  
 
     .content {
         margin: 10px;
