@@ -1,5 +1,5 @@
     body {
-        background-image: url(assets/back_ground_01.jpg);
+        /* background-image: url(assets/back_ground_01.jpg); */
         height: 98vh;
         font-family: 'Montserrat', sans-serif;
     }
@@ -12,8 +12,8 @@
         display: flex;
         flex-wrap: wrap;
         position: fixed;
-        color: black;
-        background-color: rgb(117, 115, 115);
+        color: rgb(22, 11, 51);
+        background-color:  rgba(5, 41, 117,0.5);
         height: 50px;
         width: 100%;
     }
@@ -88,7 +88,7 @@
     }
 
     .myProj {
-        background-color: rgb(148, 144, 144);
+        background-color: rgba(5, 41, 117,0.5);
         margin: 20px;
         height: 250px;
         max-height: 300px;
