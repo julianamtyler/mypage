@@ -12,8 +12,7 @@
         display: flex;
         flex-wrap: wrap;
         position: fixed;
-        color: rgb(22, 11, 51);
-        background-color:  rgba(5, 41, 117,0.5);
+        background-color:  rgb(5, 41, 117);
         height: 50px;
         width: 100%;
     }
@@ -22,7 +21,7 @@
         margin: auto;
     }
     a:any-link {
-        color: rgb(0, 0, 0);
+        color:white;
         text-decoration: none;
     }
       .navlink:hover {
