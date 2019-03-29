@@ -10442,7 +10442,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgb(255, 255, 255) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .text-hide {
@@ -10665,8 +10665,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 25, 46, 0.8)), to(rgba(28, 25, 46, 0.8))), url("../img/ai-blur-codes-577585.jpg");
-  background: linear-gradient(to bottom, rgba(28, 25, 46, 0.8) 0%, rgba(28, 25, 46, 0.8) 100%), url("../img/ai-blur-codes-577585.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 25, 46, 0.8)), to(rgba(28, 25, 46, 0.8))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(28, 25, 46, 0.8) 0%, rgba(28, 25, 46, 0.8) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
